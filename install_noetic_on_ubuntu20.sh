@@ -26,6 +26,7 @@ echo "git cloning repos"
 sudo apt-get -qq install python3-numpy python3-scipy python3-matplotlib ipython3 python3-pandas python3-sympy python3-nose -y
 sudo apt-get -qq install ros-noetic-slam-gmapping -y
 sudo apt-get -qq install ros-noetic-gmapping -y
+source /opt/ros/noetic/setup.bash
 cd ~/catkin_ws/src
 git clone https://github.com/StanfordASL/asl_turtlebot.git
 echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
