@@ -32,8 +32,8 @@ git clone https://github.com/StanfordASL/asl_turtlebot.git
 echo "export TURTLEBOT3_MODEL=burger" >> ~/.bashrc
 cd ~/catkin_ws/src/
 git clone --quiet https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
-cd ~/catkin_ws/src/
 git clone --quiet https://github.com/ROBOTIS-GIT/turtlebot3.git
+git clone --quiet https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 cd ~/catkin_ws && catkin_make
 echo "Installing VSCode..."
 sudo apt install software-properties-common apt-transport-https wget -y
